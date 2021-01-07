@@ -23,7 +23,7 @@
   height: 100%;
 }
 .contact-form {
-  background-color: var (--secondary-font-color);
+  background-color: $c-font2;
   width: 100%;
   height: auto;
   flex: 50%;
@@ -31,7 +31,7 @@
   text-align: center;
 
   h2 {
-    color: var(--main-font-color-dark);
+    color: $c-black;
     padding-bottom: 20px;
   }
 }
@@ -40,15 +40,15 @@
     border: none;
     outline: none;
     border-radius: 50px;
-    background-color: var(--secondary-font-color);
-    color: var(--main-font-color-dark);
+    background-color: $c-white;
+    color: $c-dark;
     text-transform: uppercase;
     padding: 10px 0;
     cursor: pointer;
     font-size: 1.2rem;
   }
       .contact-form-btn :hover {
-      background-color: white;
+      background-color: $c-black;
     }
 .contact-form h1 {
   margin-bottom: 10px;
