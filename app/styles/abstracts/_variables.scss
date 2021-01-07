@@ -1,8 +1,9 @@
 /// Regular font family
-@import "base/fonts";
+@import url("https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap");
 /// @type List
-$text-font-stack: "Lato", "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
-  "Helvetica", "Arial", sans-serif;
+$text-font-stack: "Source Sans Pro", "Lato", "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif; 
+$text-second-stack: "Herr Von Muellerhoff", cursive;
 
 /// Code (monospace) font family
 /// @type List
@@ -25,9 +26,12 @@ $font-weight-xblack: 900;
 
 // Colors variables
 // Color variables should start with 'c-'
-$c-black: #555;
+$c-black: #515151;
+$c-dark: #252525;
 $c-white: #ffffff;
+$c-font2: #c59d5f;
 $c-btn: #e67e22;
+$c-footer: #121212;
 
 /// Container's maximum width
 /// @type Length
@@ -41,19 +45,3 @@ $breakpoints: (
   "medium": 768px,
   "large": 1023px,
 ) !default;
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: "/assets/" !default;
-
-
-// z-index map
-// Used in z() function used sitewide.
-// Remove the examples below when you are ready to layer your own.
-$z-layers: (
-  example_top: (),
-  example_middle: (),
-  example_bottom: (),
-);
