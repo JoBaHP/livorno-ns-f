@@ -1,0 +1,66 @@
+/// Regular font family
+@import "base/fonts";
+/// @type List
+$text-font-stack: "Lato", "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Monaco", monospace !default;
+
+  // Font-related variables
+// Font variables should start with 'font-'
+$font-family-serif: serif;
+$font-family-sans: sans-serif;
+$font-family-icons: 'icons';
+
+  // Font weights
+$font-weight-thin: 100;
+$font-weight-regular: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-black: 700;
+$font-weight-xblack: 900;
+
+// Colors variables
+// Color variables should start with 'c-'
+$c-black: #555;
+$c-white: #ffffff;
+$c-btn: #e67e22;
+$c-btn-hover: #cf6d17;
+$c-dark-black: #000;
+$c-dark-grey: #f4f4f4;
+$c-dark-footer: #333;
+$c-fb: #3b5998;
+$c-instagram: #517fa4;
+$c-twitter: #00aced;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  "small": 480px,
+  "medium": 768px,
+  "large": 1023px,
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: "/assets/" !default;
+
+
+// z-index map
+// Used in z() function used sitewide.
+// Remove the examples below when you are ready to layer your own.
+$z-layers: (
+  example_top: (),
+  example_middle: (),
+  example_bottom: (),
+);
