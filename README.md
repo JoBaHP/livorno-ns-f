@@ -1,7 +1,7 @@
 # Pizzeria Livorno
 
 ### [Live Site] (www.pizzerialivorno.rs)
-![Livorno website] (https://ibb.co/LQqSqVB)
+[Screenshot] (https://ibb.co/LQqSqVB)
 Using:
 - HTML5
 - Sass
