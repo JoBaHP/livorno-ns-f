@@ -1,6 +1,6 @@
 # livorno-ns
 
-www.pizzerialivorno.rs
+[Live Site] (www.pizzerialivorno.rs)
 
 Web site for Livorno pizzeria developed using YEOMAN:
 
@@ -10,3 +10,4 @@ Web site for Livorno pizzeria developed using YEOMAN:
 - jQuery
 - Gulp
 - FormsPree (API and email service for HTML forms)
+- Food oredering app
