@@ -2,8 +2,7 @@
 
 [Live Site] (www.pizzerialivorno.rs)
 
-Web site for Livorno pizzeria developed using YEOMAN:
-
+Using:
 - HTML5
 - Sass
 - Modernizr
